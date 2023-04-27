@@ -12,7 +12,7 @@
     border-color: var(--primary-bg-highlight);
     border-right-color: var(--secondary-bg-highlight);
     background-color: var(--primary-bg-highlight);
-    width: 10%;
+    width: 150px;
     height: 50em;
 }
 
