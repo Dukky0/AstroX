@@ -1,0 +1,156 @@
+#page-content {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 5rem;
+}
+
+body {
+    /* variables */
+    --primary-bg: #121723;
+    --primary-bg-highlight: #181e2e;
+    --secondary-bg: #2a3548;
+    --secondary-bg-highlight: #3a485f;
+    --primary-accent: #645CBB;
+    --desaturated-dark: #6e8296;
+    /* --secondary-accent: #78c2ff; */
+    --secondary-accent: #FFFFFF;
+    --premium-accent: #ffb84b;
+    --purple-highlight: #df73ff;
+
+    background-color: var(--secondary-bg);
+    color: var(--secondary-accent);
+    margin: 0;
+
+    font-family: 'Trebuchet MS', SansSerif;
+}
+
+body * {
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--primary-bg);
+    width: 100%;
+    height: auto;
+    padding: 0.5em;
+}
+
+header * {
+    color: var(--secondary-accent);
+}
+
+nav {
+    display:inline-block;
+    margin-left: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#nav-left {
+    width: 15%;
+}
+
+#nav-center {
+    width: 75%;
+}
+
+#nav-buttons {
+    margin-left: 45em;
+}
+
+#nav-buttons * {
+    margin-right: 2em;
+}
+
+#start-button {
+    border: 2px;
+    border-style: solid;
+    border-color: var(--primary-accent);
+    border-radius: 10px;
+    padding: 7px;
+    color: var(--primary-accent);
+}
+
+#start-button:hover {
+    background-color: var(--primary-accent);
+    border-color: var(--secondary-accent);
+    color: var(--secondary-accent);
+}
+
+.hover:hover {
+    color: var(--primary-accent);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.small-font {
+    font-size: 20px;
+}
+
+.big-font {
+    font-size: 75px;
+}
+
+.mid-font {
+    font-size: 40px;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+.no-text-dec {
+    text-decoration: none;
+    color: var(--secondary-accent);
+}
+
+.highlight {
+    background-color: var(--secondary-bg-highlight);
+}
+
+.auto-width {
+    width: auto;
+}
+
+.attention {
+    color: var(--primary-accent);
+}
+
+.dull {
+    color: var(--desaturated-dark)
+}
+
+.tabbed {
+    margin-left: 5%;
+}
+
+.small-mar {
+    margin: 0.3em;
+    margin-left: 0;
+}
+
+.paragraph-font {
+    font-size: 30px;
+}
+
+.bulletless {
+    list-style-type: none;
+}
+
+.link {
+    color: rgb(65, 145, 236);
+    text-decoration: underline;
+}

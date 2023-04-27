@@ -1,0 +1,25 @@
+#space-scroll-earth {
+    padding-top: 10em;
+    background-image: url("../assets/placeholder-bg.png");
+    background-size: 100% 100%;
+}
+
+#title-screen {
+    padding-top: 10em;
+    padding-bottom: 20em;
+}
+
+.title {
+    color: var(--primary-accent);
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: var(--primary-accent);
+    margin-bottom: 0;
+}
+
+.test {
+    color: var(--primary-accent);
+    padding-bottom: 100em;
+}
