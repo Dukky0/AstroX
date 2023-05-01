@@ -13,7 +13,8 @@ body {
     --primary-bg-highlight: #181e2e;
     --secondary-bg: #2a3548;
     --secondary-bg-highlight: #3a485f;
-    --primary-accent: #645CBB;
+    --primary-accent: #744faf;
+    --primary-accent-highlight: #bd74f8;
     --desaturated-dark: #6e8296;
     /* --secondary-accent: #78c2ff; */
     --secondary-accent: #FFFFFF;
@@ -159,4 +160,8 @@ nav ul {
     padding-top: 10em;
     text-align: center;
     text-decoration: none;
+}
+
+.purple-highlight {
+    color: var(--primary-accent-highlight);
 }

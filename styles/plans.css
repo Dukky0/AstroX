@@ -19,7 +19,7 @@
     padding: 16px;
     font-size: 16px;
     border: none;
-    border-radius: 5px;
+    border-radius: 12px;
 }
 
 .dropdown {
@@ -43,6 +43,10 @@
     display: block;
 }
 
+.dropdown-option:hover {
+    background-color: #a7afbb;
+}
+
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -55,4 +59,8 @@
     background-color: var(--secondary-bg-highlight);
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2) inset;
     width: 40%
+}
+
+#submission {
+    margin-left: 5em;
 }

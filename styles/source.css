@@ -1,0 +1,23 @@
+#source_list a:link {
+    color: var(--primary-accent-highlight);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#source_list a:visited {
+    color: #7d50fa;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#source_list a:hover {
+    color: rgb(228, 116, 116);
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+#source_list a:active {
+    color: var(--primary-accent-highlight);
+    background-color: transparent;
+    text-decoration: underline;
+}
