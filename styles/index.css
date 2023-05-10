@@ -9,6 +9,13 @@
     padding-bottom: 20em;
 }
 
+header * {
+    z-index: 2;
+}
+body * {
+    z-index: 1;
+}
+
 .title {
     color: var(--primary-accent);
     margin-bottom: 0;

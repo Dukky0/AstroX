@@ -3,8 +3,12 @@
     margin: 5em;
 }
 
+#req-list {
+    display: flex;
+}
+
 #req-list * {
-    display: inline-block;
+    flex: 1;
     width: 40%;
     text-align: center;
     margin-left: 3em;
@@ -16,5 +20,9 @@
 }
 
 #req-title {
+    text-align: center;
+}
+
+.ender {
     text-align: center;
 }

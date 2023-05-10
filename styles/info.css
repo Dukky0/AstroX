@@ -16,6 +16,11 @@
     height: 50em;
 }
 
+#spacer {
+    height: 20px;
+    background-color: var(--primary-bg-highlight);
+}
+
 #buttons {
     list-style-type: none;
     padding-left: 15px;

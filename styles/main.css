@@ -28,15 +28,26 @@ body {
     font-family: 'Trebuchet MS', SansSerif;
 }
 
+
 body * {
     text-decoration: none;
+    text-shadow: 1px 1px 5px black;
 }
 
+body {
+    z-index: 0;
+}
 header {
     background-color: var(--primary-bg);
     width: 100%;
     height: auto;
     padding: 0.5em;
+    z-index: 1;
+}
+
+#spacer {
+    height: 20px;
+    background-color: var(--secondary-bg);
 }
 
 header * {
@@ -50,6 +61,24 @@ nav {
 
 nav ul {
     list-style-type: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#footer-content {
+    background-color: rgb(12, 14, 17);
+    text-align: center;
+    color: var(--desaturated-dark);
+    padding: 0.5em;
+}
+
+#footer-content * {
+    margin: 0;
 }
 
 #nav-left {
