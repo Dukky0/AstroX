@@ -9,6 +9,8 @@
 
 body {
     /* variables */
+    --off-white: #a7a6af;
+    --space-bg: rgb(0, 0, 0);
     --primary-bg: #121723;
     --primary-bg-highlight: #181e2e;
     --secondary-bg: #2a3548;
@@ -37,6 +39,7 @@ body * {
 body {
     z-index: 0;
 }
+
 header {
     background-color: var(--primary-bg);
     width: 100%;
@@ -71,7 +74,7 @@ footer {
 }
 
 #footer-content {
-    background-color: rgb(12, 14, 17);
+    background-color: var(--primary-bg);
     text-align: center;
     color: var(--desaturated-dark);
     padding: 0.5em;
@@ -103,7 +106,7 @@ footer {
     border-color: var(--primary-accent);
     border-radius: 10px;
     padding: 7px;
-    color: var(--primary-accent);
+    color: var(--secondary-accent);
 }
 
 #start-button:hover {
@@ -145,6 +148,10 @@ footer {
 .no-text-dec {
     text-decoration: none;
     color: var(--secondary-accent);
+}
+
+.shadowless {
+    text-shadow: none;
 }
 
 .highlight {

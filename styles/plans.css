@@ -13,6 +13,17 @@
     padding-left: 2em;
 }
 
+#cost-segment {
+    margin-top: 3em;
+    padding: 3em;
+    margin-bottom: 2em;
+    width: 80%;
+    display: inline-flex;
+    background-color: var(--primary-bg);
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
 .dropbtn {
     background-color: #9746c7;
     color: white;
@@ -20,11 +31,13 @@
     font-size: 16px;
     border: none;
     border-radius: 12px;
+    text-shadow: none;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+    text-shadow: none;
 }
 
 .dropdown-content {
@@ -34,6 +47,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    text-shadow: none;
 }
 
 .dropdown-content p {
@@ -41,10 +55,12 @@
     padding: 12px 12px;
     text-decoration: none;
     display: block;
+    text-shadow: none;
 }
 
 .dropdown-option:hover {
     background-color: #a7afbb;
+    text-shadow: none;
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
@@ -58,7 +74,8 @@
     padding-top: 0.1em;
     background-color: var(--secondary-bg-highlight);
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2) inset;
-    width: 40%
+    width: 40%;
+    text-shadow: none;
 }
 
 #submission {

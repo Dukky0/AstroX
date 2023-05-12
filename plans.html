@@ -21,6 +21,17 @@
                 <div id="plans-title">
                     <p class="big-font">Plan Your Trip here!</p>
                 </div>
+                <p class="mid-font small-mar center-txt">Prices</p>
+                <div id="cost-segment">
+                    <div id="business">
+                        <p class="small-font">Business Class</p>
+                        <p class="small-font tabbed">With a $2,000,000 price, our Business Class package includes a round trip in our state of the art space transport vehicles, as well as food and lodging for the duration of the trip.</p>
+                    </div>
+                    <div id="first">
+                        <p class="small-font">First Class</p>
+                        <p class="small-font tabbed">Our First Class, round trip, package provides all of the luxuries you would expect from interplanetary travel. From food and lodging to exotic space dining and larger quarters for the duration of your stay in our care.</p>
+                    </div>
+                </div>
                 <div id="plans-body">
                     <p class="mid-font">Fill out this form to register for your interplanetary trip!</p>
                     <div id="plans-form" class="tabbed inline">
@@ -48,10 +59,18 @@
                                 <p class="dropdown-option" id="plan-2">First Class</p>
                             </div>
                         </div>
+                        <p class="small-font">Please type the amount of tickets you would like to purchase: </p>
+                        <div>
+                            <form>
+                                <label class="small-font" for="ticket-number">Ticket Amount</label>
+                                <input class="small-font shadowless" type="text" id="fticket" name="fticket" onchange="ticketForm(this)"">
+                            </form>
+                        </div>
                     </div>
                     <div id="submission" class="inline">
                         <p class="big-font">Your Total:</p>
                         <p id="total" class="big-font">------</p>
+                        <p id="items" class="mid-font">------</p>
                         <div>
                             <div class="dropdown">
                                 <button id="submit-btn" class="dropbtn">Submit Form</button>

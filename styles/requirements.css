@@ -7,16 +7,22 @@
     display: flex;
 }
 
-#req-list * {
+.req-listing {
     flex: 1;
     width: 40%;
+    height: 6em;
     text-align: center;
-    margin-left: 3em;
+    margin: auto;
     padding: 1em;
     border: 2px;
     border-color: var(--primary-bg);
     background-color: var(--secondary-bg-highlight);
     border-radius: 8px;
+}
+
+.spaced {
+    width: 10px;
+    background-color: var(--secondary-bg);
 }
 
 #req-title {

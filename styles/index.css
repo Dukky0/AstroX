@@ -1,12 +1,57 @@
-#space-scroll-earth {
-    padding-top: 10em;
-    background-image: url("../assets/placeholder-bg.png");
-    background-size: 100% 100%;
+body {
+
+    
+    background-color: var(--space-bg);
+    color: var(--secondary-accent);
+    margin: 0;
+
+    font-family: 'Trebuchet MS', SansSerif;
+}
+
+
+body * {
+    text-decoration: none;
+    text-shadow: 1px 1px 5px black;
+}
+
+#title-backsplash {
+    background-image: url("../assets/mars_space.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#spacer {
+    height: 20px;
+    background-color: var(--space-bg);
 }
 
 #title-screen {
-    padding-top: 10em;
-    padding-bottom: 20em;
+    background-color: var(--secondary-bg-highlight);
+    width: 30%;
+    padding-bottom: 1em;
+    background-color: rgba(43, 29, 43, 0.3);
+    margin: auto;
+    margin-top: 20em;
+    margin-bottom: 10em;
+    border-radius: 4em;
+}
+
+#title-content {
+    opacity: 100%;
+}
+
+#main-redirects {
+    margin: 15em;
+}
+
+#main-redirects * {
+    text-align: center;
 }
 
 header * {
@@ -17,7 +62,7 @@ body * {
 }
 
 .title {
-    color: var(--primary-accent);
+    color: var(--secondary-accent);
     margin-bottom: 0;
 }
 
@@ -31,6 +76,43 @@ body * {
     padding-bottom: 100em;
 }
 
+#trip-planning {
+    background-color: var(--space-bg);
+    border-color: var(--off-white);
+    color: var(--off-white);
+    border: 4px;
+    border-style: solid;
+    border-radius: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom-style: dashed;
+}
+
+#information {
+    background-color: var(--space-bg);
+    border-color: var(--off-white);
+    color: var(--off-white);
+    border: 4px;
+    border-style: solid;
+    border-radius: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom-style: dashed;
+    border-top-style: dashed;
+}
+
+#requirements {
+    background-color: var(--space-bg);
+    border-color: var(--off-white);
+    color: var(--off-white);
+    border: 4px;
+    border-style: solid;
+    border-radius: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-top-style: dashed;
+}   
+
 #sources {
     padding-top: 5em;
     text-decoration: underline;
@@ -38,4 +120,18 @@ body * {
 
 #sources * {
     color: var(--secondary-accent);
+}
+
+.redir-button {
+    color: var(--secondary-accent);
+    border: 2px;
+    border-style: solid;
+    border-color: var(--secondary-bg);
+    border-radius: 2em;
+    padding: 0.4em;
+}
+
+.redir-button:hover {
+    background-color: var(--secondary-accent);
+    color: var(--space-bg);
 }

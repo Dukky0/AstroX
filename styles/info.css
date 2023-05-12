@@ -39,33 +39,54 @@
 }
 
 #home-page {
-    width: 45%;
-    padding-left: 30%;
-    padding-right: 10%;
+    width: 80%;
+    padding-left: 15%;
     padding-top: 15em;
-}
-
-#cost-segment {
-    margin-top: 12em;
-    background-color: var(--secondary-bg-highlight);
-    border-radius: 5em;
-    padding: 3em;
-}
-
-#cost-button {
-    border-radius: 10px;
-    margin-right: 0.2em;
 }
 
 #cost-button:hover {
     background-color: var(--secondary-bg-highlight);
 }
 
+#activities-tag {
+    display: inline-flex;
+}
+
+.img-cap {
+    width: 500px;
+}
+
+#transport-tag {
+    display: inline-flex;
+}
+
+#safety-tag {
+    display: inline-flex; 
+}
+
+.img-half {
+    width: 200px;
+}
+
+#activities-img {
+    width: 600px;
+    height: 400px;
+}
+
+#transport-img {
+    width: 600px;
+    height: 442px;
+}
+
+#safety-img {
+    width: 600px;
+    height: 558px;
+}
+
 #activities-segment {
-    margin-top: 12em;
     background-color: var(--secondary-bg-highlight);
-    border-radius: 5em;
-    padding: 3em;
+    padding: 1em;
+    width: 50%;
 }
 
 #activities-button {
@@ -78,10 +99,9 @@
 }
 
 #transport-segment {
-    margin-top: 12em;
     background-color: var(--secondary-bg-highlight);
-    border-radius: 5em;
-    padding: 3em;
+    padding: 1em;
+    width: 50%;
 }
 
 #transport-button {
@@ -94,10 +114,9 @@
 }
 
 #safety-segment {
-    margin-top: 12em;
     background-color: var(--secondary-bg-highlight);
-    border-radius: 5em;
-    padding: 3em;
+    padding: 1em;
+    width: 50%;
 }
 
 #safety-button {

@@ -1,17 +1,45 @@
 var total = document.getElementById("total");
+var items = document.getElementById("items");
+var busPrice = 2000000;
+var firPrice = 5000000;
+var ticketAmount = 0;
+var first = false;
+var bus = false;
+
+var ticketNum = document.getElementById("fticket");
+const ticketForm = (input) => {
+    ticketAmount = input.value;
+    
+    if (first) {
+        total.textContent = "$" + firPrice*ticketAmount;
+        items.textContent = firPrice + " x " + ticketAmount;
+    } else if (bus){
+        total.textContent = "$" + busPrice*ticketAmount;
+        items.textContent = busPrice + " x " + ticketAmount;
+    } else {
+        total.textContent = "------";
+        items.textContent = "------";
+    }
+}
 
 var plan_btn = document.getElementById("plan-btn");
 
 var first_click1 = document.getElementById("plan-2");
 first_click1.addEventListener("click", () => {
+    first = true;
+    bus = false;
     plan_btn.textContent = "First Class";
-    total.textContent = "$5,000,000";
+    total.textContent = "$" + firPrice*ticketAmount;
+    items.textContent = firPrice + " x " + ticketAmount;
 })
 
 var business_click1 = document.getElementById("plan-1");
 business_click1.addEventListener("click", () => {
+    bus = true;
+    first = false;
     plan_btn.textContent = "Business Class";
-    total.textContent = "$2,000,000";
+    total.textContent = "$" + busPrice*ticketAmount;
+    items.textContent = busPrice + " x " + ticketAmount;
 })
 
 var date_btn = document.getElementById("date-btn");
@@ -45,5 +73,6 @@ submit.addEventListener("click", () => {
     date_btn.textContent = "Date";
     plan_btn.textContent = "Price Plan";
     total.textContent = "------";
+    items.textContent = "------";
 })
 
