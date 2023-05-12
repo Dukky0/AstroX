@@ -86,7 +86,30 @@
 #activities-segment {
     background-color: var(--secondary-bg-highlight);
     padding: 1em;
-    width: 50em;
+    width: 55%;
+    min-width: 53em;
+}
+
+#transport-segment {
+    background-color: var(--secondary-bg-highlight);
+    padding: 1em;
+    width: 55%;
+    min-width: 40em;
+    min-width: 53em;
+}
+
+#safety-segment {
+    background-color: var(--secondary-bg-highlight);
+    padding: 1em;
+    width: 55%;
+    min-width: 40em;
+    min-width: 53em;
+}
+
+
+#transport-button {
+    border-radius: 10px;
+    margin-right: 0.2em;
 }
 
 #activities-button {
@@ -98,25 +121,9 @@
     background-color: var(--secondary-bg-highlight);
 }
 
-#transport-segment {
-    background-color: var(--secondary-bg-highlight);
-    padding: 1em;
-    width: 50em;
-}
-
-#transport-button {
-    border-radius: 10px;
-    margin-right: 0.2em;
-}
 
 #transport-button:hover {
     background-color: var(--secondary-bg-highlight);
-}
-
-#safety-segment {
-    background-color: var(--secondary-bg-highlight);
-    padding: 1em;
-    width: 50em;
 }
 
 #safety-button {
