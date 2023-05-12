@@ -1,3 +1,7 @@
+body {
+    background-color: var(--primary-bg-highlight);
+}
+
 #page-content-info {
     background-color: var(--primary-bg-highlight);
     position: relative;
