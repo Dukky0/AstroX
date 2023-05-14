@@ -21,3 +21,31 @@
     background-color: transparent;
     text-decoration: underline;
 }
+
+#img-links {
+    text-align: center;
+}
+
+#img-links a:link {
+    color: var(--primary-accent-highlight);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#img-links a:visited {
+    color: #7d50fa;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#img-links a:hover {
+    color: rgb(228, 116, 116);
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+#img-links a:active {
+    color: var(--primary-accent-highlight);
+    background-color: transparent;
+    text-decoration: underline;
+}

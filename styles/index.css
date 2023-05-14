@@ -46,6 +46,11 @@ body * {
     opacity: 100%;
 }
 
+#sec-pg-content {
+    background-image: url("../assets/bg2.png");
+    background-repeat: no-repeat;
+}
+
 #main-redirects {
     margin: 15em;
 }

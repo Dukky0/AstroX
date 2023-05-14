@@ -9,7 +9,8 @@ body {
 }
 
 #categories {
-    margin-top: 7em;
+    margin-top: 5.5em;
+    padding-top: 5em;
     position: fixed;
     border: 2px;
     border-style: solid;
@@ -17,7 +18,7 @@ body {
     border-right-color: var(--secondary-bg-highlight);
     background-color: var(--primary-bg-highlight);
     width: 150px;
-    height: 50em;
+    height: 100vh;
 }
 
 #spacer {
@@ -33,8 +34,8 @@ body {
 #buttons * {
     width: auto;
     padding: 0.3em;
-    padding-right: 4em;
-    margin-top: 0.5em;
+    padding-right: 2em;
+    margin-top: 2em;
 }
 
 .inner-page {
@@ -92,6 +93,7 @@ body {
     padding: 1em;
     width: 55%;
     min-width: 53em;
+    max-width: 53em;
 }
 
 #transport-segment {
@@ -99,6 +101,7 @@ body {
     padding: 1em;
     width: 55%;
     min-width: 53em;
+    max-width: 53em;
 }
 
 #safety-segment {
@@ -106,8 +109,8 @@ body {
     padding: 1em;
     width: 55%;
     min-width: 53em;
+    max-width: 53em;
 }
-
 
 #transport-button {
     border-radius: 10px;

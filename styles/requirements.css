@@ -10,7 +10,7 @@
 .req-listing {
     flex: 1;
     width: 40%;
-    height: 6em;
+    height: auto;
     text-align: center;
     margin: auto;
     padding: 1em;
