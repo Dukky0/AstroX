@@ -9,7 +9,6 @@ body {
 }
 
 #categories {
-    margin-top: 5.5em;
     padding-top: 5em;
     position: fixed;
     border: 2px;
@@ -19,6 +18,10 @@ body {
     background-color: var(--primary-bg-highlight);
     width: 150px;
     height: 100vh;
+}
+
+.info-font {
+    font-size: 30px;
 }
 
 #spacer {
@@ -45,7 +48,7 @@ body {
 
 #home-page {
     width: 80%;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 15em;
 }
 
@@ -91,25 +94,25 @@ body {
 #activities-segment {
     background-color: var(--secondary-bg-highlight);
     padding: 1em;
-    width: 55%;
-    min-width: 53em;
-    max-width: 53em;
+    min-width: 38em;
+    max-width: 38em;
 }
 
 #transport-segment {
     background-color: var(--secondary-bg-highlight);
     padding: 1em;
+    margin: auto;
     width: 55%;
-    min-width: 53em;
-    max-width: 53em;
+    min-width: 38em;
+    max-width: 38em;
 }
 
 #safety-segment {
     background-color: var(--secondary-bg-highlight);
     padding: 1em;
     width: 55%;
-    min-width: 53em;
-    max-width: 53em;
+    min-width: 38em;
+    max-width: 38em;
 }
 
 #transport-button {
